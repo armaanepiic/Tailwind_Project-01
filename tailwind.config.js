@@ -15,6 +15,8 @@ module.exports = {
       mono: ["ui-monospace", "SFMono-Regular"],
       display: ["Oswald"],
       body: ['"Open Sans"'],
+      sevillana: ["Sevillana"],
+      anton: ["Anton SC"],
     },
     extend: {},
   },
