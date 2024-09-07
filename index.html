@@ -5,54 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Tailwind starter</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
     
 </head>
-<body>
-    
-   
-    <button class="bg-black text-white py-3 px-5 rounded-lg m-3
-    hover:bg-orange-500 hover:text-black">Submit</button>
-
-    <button class="bg-black text-white py-3 px-5 rounded-lg m-3
-    focus:bg-green-500 focus:text-black">Submit</button>
-
-    <button class="bg-black text-white py-3 px-5 rounded-lg m-3
-    active:bg-yellow-500 active:text-black">Submit</button>
-    
-    <br>
-
-    <a href="#item" class="group block max-w-xs mx-auto rounded-lg
-    p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
-    <h3 class="group-hover:text-white">Card Title</h3>
-    <p class="group-hover:text-white">This is the card text</p>
-    </a>
-
-    <br>
-
-    <ul>
-        <li class="first:bg-red-200 even:bg-green-300 odd:bg-slate-500">item 1</li>
-        <li class="first:bg-red-200 even:bg-green-300 odd:bg-slate-500">item 3</li>
-        <li class="first:bg-red-200 even:bg-green-300 odd:bg-slate-500">item 2</li>
-        <li class="first:bg-red-200 even:bg-green-300 odd:bg-slate-500">item 4</li>
-        <li class="first:bg-red-200 even:bg-green-300 odd:bg-slate-500">item 5</li>
-        <li class="first:bg-red-200 even:bg-green-300 odd:bg-slate-500">item 6</li>
-    </ul>
-
-    <select class="appearance-none">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-    </select>
-
-    <br>
-
-    <button class="bg-black text-white py-3 px-5 rounded-lg m-3
-    cursor-not-allowed">Submit</button>
-
-    <p class="select-none">I am in Bangladesh</p>
-    <p class="select-all">I am in England</p>
-    <p id="item" class="select-text">I am in canada</p>
-
+<body class="bg-black sm:bg-green-800 md:bg-blue-800 lg:bg-yellow-800
+xl:bg-purple-800 2xl:bg-red-800">
+    <h1 class="text-white text-xl md:text-3xl lg:test-4xl xl:text-6xl 2xl:text-7xl"></h1>
+    <script>
+        function showBrowserWidth(){
+            const width = window.innerWidth;
+            document.querySelector('h1').innerText = `Width: ${width}px`;
+        }
+        window.onload = showBrowserWidth;
+        window.onresize = showBrowserWidth;
+    </script>
 
     <div class="h-96"></div>
 </body>
