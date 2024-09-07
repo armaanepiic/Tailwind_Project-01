@@ -9,17 +9,24 @@
 
     
 </head>
-<body class="bg-black sm:bg-green-800 md:bg-blue-800 lg:bg-yellow-800
-xl:bg-purple-800 2xl:bg-red-800">
-    <h1 class="text-white text-xl md:text-3xl lg:test-4xl xl:text-6xl 2xl:text-7xl"></h1>
-    <script>
-        function showBrowserWidth(){
-            const width = window.innerWidth;
-            document.querySelector('h1').innerText = `Width: ${width}px`;
-        }
-        window.onload = showBrowserWidth;
-        window.onresize = showBrowserWidth;
-    </script>
+<body>
+    
+    <div class="flex items-center gap-4 justify-center h-72 w-full bg-gray-100">
+        <div class="p-10 border border-slate-950 bg-blue-300 text-5xl">01</div>
+        <div class="p-10 border border-slate-950 bg-blue-300 text-5xl">02</div>
+        <div class="p-10 border border-slate-950 bg-blue-300 text-5xl">03</div>
+        <div class="p-10 border border-slate-950 bg-blue-300 text-5xl">04</div>
+    </div>
+
+    <div class="flex w-full bg-green-600">
+        <div class="p-10 border border-slate-950 bg-blue-300 text-5xl">01</div>
+        <div class="p-10 border border-slate-950 bg-blue-300 text-5xl">02</div>
+        <div class="p-10 border border-slate-950 bg-blue-300 text-5xl">03</div>
+        <div class="p-10 border border-slate-950 bg-blue-300 text-5xl">04</div>
+        <div class="p-10 border border-slate-950 bg-blue-300 text-5xl">05</div>
+        <div class="p-10 border border-slate-950 bg-blue-300 text-5xl">06</div>
+        <div class="p-10 border border-slate-950 bg-blue-300 text-5xl">07</div>
+    </div>
 
     <div class="h-96"></div>
 </body>
