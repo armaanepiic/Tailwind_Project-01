@@ -18,11 +18,22 @@ module.exports = {
       sevillana: ["Sevillana"],
       anton: ["Anton SC"],
     },
+    screens: {
+      sm: '550px',
+      md: '800px', 
+      lg: '1200px',
+      xl: '1440px',
+    },
     extend: {
       transitionDuration: {
         2000: '2000ms'
+      },
+      colors: {
+        primary: '#ff5733',
+        secondary: '#fffc33',  
       }
     },
   },
+  darkMode: 'class',
   plugins: [],
 };
